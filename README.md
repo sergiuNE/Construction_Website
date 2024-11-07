@@ -1,2 +1,3 @@
-# Construction_Website
-Created a website for a construction company using JavaScript, HTML and CSS. The website also includes a dropdown menu which translates the website in different languages.
+### 🏗️ Construction Company Website
+
+Developed a professional website for a construction company using **JavaScript**, **HTML**, and **CSS**. The site features a 🌐 multilingual dropdown menu, allowing users to translate content into multiple languages for broader accessibility.
