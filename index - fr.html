@@ -1,0 +1,158 @@
+<meta charset="UTF-8">
+<html>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Accueil - Neagu Group</title>
+        <link rel="icon" href="images/favicon (7).ico" type="image/x-icon">
+        <link rel="reset" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    </head>
+
+<body>
+    <header>
+        <!-- Conteneur de liste déroulante  -->
+        <div class="language-dropdown">
+            <select id="language-select">
+                <option value="">Langue</option>
+                <option value="english">Anglais</option>
+                <option value="french">Français</option>
+                <option value="romanian">Roumain</option>
+                <option value="dutch">Néerlandais</option>
+            </select>
+        </div>
+    </header>
+
+    <!-- Barre de navigation -->
+    <section class="header">
+        <nav>
+            <a href="index - fr.html"><img src="images/logo.png" width="210" height="110" title="Neagu Group Accuail"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index - fr.html">ACCUEIL</a></li>
+                    <li><a href="services - fr.html">SERVICES</a></li>
+                    <li><a href="achievements - fr.html">RÉALISATIONS</a></li>
+                    <li><a href="contact - fr.html">CONTACT</a></li>
+                    <li><a href="about - fr.html">À PROPOS</a></li>
+                    <li><a href="portfolio - fr.html">PORTEFEUILLE</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Rénovation complète</h1>
+            <p>Il n'y a pas de problèmes, seulement des solutions</p>
+            <a href="about - fr.html" class="hero-btn">Visitez-nous Pour En Savoir Plus</a>
+        </div>
+    </section>
+
+    <!------ Les services ------->
+    <section class="course">
+        <h1>Des Offres De Services Complètes</h1>
+        <div class="row">
+            <div class="course-col">
+                <h3>Construction Civile</h3>
+                <p>La création d'infrastructures liées à l'eau, à la terre et au transport</p>
+            </div>
+            <div class="course-col">
+                <h3>Rénovations</h3>
+                <p>Rétablir un état antérieur meilleur (comme dans réparation ou reconstruction)</p>
+            </div>
+            <div class="course-col">
+                <h3>Installations De Plomberie Et D'électricité</h3>
+                <p>Nous réalisons des installations électriques ou des travaux de plomberie</p>
+            </div>
+        </div>
+    </section>
+
+    <!----- Portefeuille de construction et de rénovation ----->
+    <section class="campus">
+        <h1>Portefeuille International De La Construction Et De La Rénovation</h1>
+        <p>Pour les projets substantiels, nous vous invitons à entamer des discussions sur la localisation et le prix
+            par courrier électronique ou par téléphone</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/belgium.PNG">
+                <div class="layer">
+                    <h3>BELGIQUE</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/france.png">
+                <div class="layer">
+                    <h3>FRANCE</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/germany.PNG">
+                <div class="layer">
+                    <h3>ALLEMAGNE</h3>
+                </div>
+            </div>
+        </div>
+        <a href="portfolio - fr.html" class="hero-btn red-btn">Visitez Nos Projets</a>
+    </section>
+
+    <!-------- Témoignages ------->
+    <section class="testimonials">
+        <h1>Témoignages De Clients Satisfaits</h1>
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="images/white_man.png">
+                <div>
+                    Neagu Group est un exemple d'excellence et de fiabilité. Le directeur général entretient constamment
+                    des relations exceptionnelles avec les clients, et chaque projet dans lequel nous nous sommes
+                    engagés a toujours été livré conformément à nos spécifications et à nos attentes.
+                    <h3>David Berkley</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+            <div class="testimonials-col">
+                <img src="images/white_woman.jpg">
+                <div>
+                    L'entreprise a toujours fait preuve d'excellence dans ses services. La qualité exceptionnelle de ses
+                    services m'a donné envie de collaborer à nouveau avec elle à l'avenir.
+                    <h3>Angelia Dupont</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-------- Contact ------->
+    <section class="cta">
+        <h1>Pour plus d'informations, veuillez cliquer sur le bouton ci-dessous</h1>
+        <a href="contact - fr.html" class="hero-btn">CONTACTEZ-NOUS</a>
+    </section>
+
+    <!-------- Pied de page ------->
+    <section class="footer">
+        <h4>À propos de nous</h4>
+        <p>Neagu Group est une entreprise de construction et de réparation qui s'engage à fournir l'excellence dans
+            toutes ses activités <br> Si vous souhaitez collaborer avec nous ou si vous avez besoin de notre expertise
+            pour résoudre un projet, nous vous invitons à prendre contact avec nous en utilisant les coordonnées
+            indiquées sur notre site web</p>
+        <div class="icons">
+            <i class="fa-solid fa-square-envelope"></i>
+        </div>
+        <p> Fabriqué avec <i class="fa-brands fa-html5"></i> par Neagu Sergiu </p>
+    </section>
+    <script src="index-fr.js"></script>
+    <script src="menu.js"></script>
+</body>
+
+</html>
