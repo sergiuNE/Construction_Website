@@ -1,0 +1,122 @@
+<meta charset="UTF-8">
+<html>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact - Neagu Group</title>
+        <link rel="icon" href="images/favicon (7).ico" type="image/x-icon">
+        <link rel="reset" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    </head>
+
+<body>
+    <header>
+        <!-- Recipient pentru dropdown -->
+        <div class="language-dropdown">
+            <select id="language-select">
+                <option value="">Limbă</option>
+                <option value="english">Engleză</option>
+                <option value="french">Franceză</option>
+                <option value="romanian">Română</option>
+                <option value="dutch">Olandeză</option>
+            </select>
+        </div>
+    </header>
+
+    <!-- Bara de navigare -->
+    <section class="subbbb-header">
+        <nav>
+            <a href="index - ro.html"><img src="images/logo.png" width="210" height="110" title="Neagu Group Acasă"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index - ro.html">ACASĂ</a></li>
+                    <li><a href="services - ro.html">SERVICII</a></li>
+                    <li><a href="achievements - ro.html">REALIZĂRI</a></li>
+                    <li><a href="contact - ro.html">CONTACT</a></li>
+                    <li><a href="about - ro.html">DESPRE NOI</a></li>
+                    <li><a href="portfolio - ro.html">PORTOFOLIU</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact</h1>
+    </section>
+
+    <!-------- Contactați-ne ------->
+    <section class="location">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d159791.6546933564!2d4.2176910806602885!3d51.26061156879291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3f68ebfc3887d%3A0x3eaf448482a88ab8!2sAntwerp!5e0!3m2!1sen!2sbe!4v1651240419501!5m2!1sen!2sbe"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </section>
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa-solid fa-home"></i>
+                    <span>
+                        <h5>Europa, Belgia</h5>
+                        <p>Anvers</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <span>
+                        <h5>+32 493 42 82 39</h5>
+                        <p>De Luni până Sâmbătă, de la ora 08.00 la 18.00, CET</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-square-envelope"></i>
+                    <span>
+                        <h5>neagu.group@gmail.com</h5>
+                        <p>Nu ezitați să ne contactați prin e-mail dacă doriți să ne trimiteți o propunere de proiect
+                            sau să ne împărtășiți ideile dumneavoastră inovatoare</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-brands fa-instagram"></i>
+                    <span>
+                        <h5>@neagu.group</h5>
+                        <p>Nu ezitați să ne contactați prin intermediul platformei noastre de mesagerie dacă doriți să
+                            ne trimiteți o propunere de proiect sau să ne împărtășiți ideile dumneavoastră inovatoare
+                        </p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="Introduceți numele dumneavoastră" required>
+                    <input type="email" name="email" placeholder="Introduceți adresa de e-mail" required>
+                    <input type="text" name="subject" placeholder="Introduceți subiectul" required>
+                    <textarea rows="8" name="message" placeholder="Mesaj" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Trimiteți Mesaj</button>
+                    <p>Trimiteți e-mailuri doar despre proiecte serioase !</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-------- Footer ------->
+    <section class="footer">
+        <h4>Despre noi</h4>
+        <p>Neagu Group este o companie de construcții și reparații care urmărește excelența în toate activitățile sale
+            <br> Dacă doriți să lucrați cu noi sau aveți nevoie de expertiza noastră pentru a rezolva un proiect, vă
+            invităm să ne contactați folosind datele de pe site-ul nostru</p>
+        <div class="icons">
+            <i class="fa-solid fa-square-envelope"></i>
+        </div>
+        <p> Fabricat cu <i class="fa-brands fa-html5"></i> de Neagu Sergiu </p>
+    </section>
+    <script src="contact-ro.js"></script>
+    <script src="menu.js"></script>
+</body>
+
+</html>
