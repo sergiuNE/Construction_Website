@@ -14,6 +14,11 @@
   position: relative;
 }
 
+.header nav > a, .sub-header nav > a, .subb-header nav > a, .subbb-header nav > a, .subbbb-header nav > a, .subbbbb-header nav > a {
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+}
+
 /* Styling for the dropdown container */
 .language-dropdown {
   position: absolute;
